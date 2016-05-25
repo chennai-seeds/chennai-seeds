@@ -1,0 +1,46 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+:root {
+  --top-padding: 10px;
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 26px;
+}
+#nav {
+    padding-top: var(--top-padding);
+    width:25%;
+    float:left;
+    font-family: Helvetica,Arial,sans-serif;
+}
+#section {
+    padding-top: var(--top-padding);
+    width:75%;
+    float:left;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+#boxes {
+    padding: var(--top-padding);
+    border-style: solid;
+    border-color: transparent;
+    float:left;   
+}
+#boxes {
+    padding: var(--top-padding);
+    float:center;   
+}
+</style>
