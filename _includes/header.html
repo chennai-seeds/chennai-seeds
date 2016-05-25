@@ -1,0 +1,8 @@
+<div id="header">
+<!-- check if we are in post. Then display the category followed by title. Else only title. -->
+{% if page.category %}
+	{{ page.category }} > {{ page.title }}
+{% else %}  
+	{{ page.title }}
+{% endif %}  
+</div>

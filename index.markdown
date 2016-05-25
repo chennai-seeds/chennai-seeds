@@ -1,14 +1,9 @@
 ---
-
+title: Heirloom seeds Chennai
 ---
-<head>
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>>
+{% include head.html %}
 <body>
-
-<div id="header">
-Seeds Gallery
-</div>
+{% include header.html %}
 
 <div id="nav">
 {% for category in site.categories %}
@@ -44,15 +39,23 @@ Seeds Gallery
 		        			</a>
 		        		</td>
 		        	</tr>
+		        	<tr>
+		        		<td>
+		        			Color: {{ post.color }}
+		        		</td>
+		        	</tr>
+		        	<tr>
+		        		<td>
+		        			Shape: {{ post.shape }}
+		        		</td>
+		        	</tr>		        	
 		        	</table>
 	        	</div>
 	        </div>
 	  	{% endif %}    
     {% endfor %}
 </div>
+{% include footer.html %}
 
-<div id="footer">
-Copyright © W3Schools.com
-</div>
 
 </body>

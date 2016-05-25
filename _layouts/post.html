@@ -1,0 +1,34 @@
+---
+---
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+
+<div id="post">
+  
+              <table >
+              <tr>
+                <th>
+                {{ page.category }} > {{ page.title }}
+                </th>
+              </tr>
+              <tr>
+                <td>
+                    <img src="/photos/{{ page.seed-image }}" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Color: {{ page.color }}
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Shape: {{ page.shape }}
+                </td>
+              </tr>             
+              </table>
+            </div>
+{% include footer.html %}
+</html>

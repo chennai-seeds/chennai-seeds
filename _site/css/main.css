@@ -8,7 +8,7 @@
 }
 
 #header {
-    background-color:black;
+    background-color:#B0BEC5;
     color:white;
     text-align:center;
     padding:5px;
@@ -26,8 +26,21 @@
     width:75%;
     float:left;
 }
+
+#post {
+    padding-top: var(--top-padding);
+    width:55%;
+    padding-left: 25%
+    
+}
+
+#post.table {
+    align-content: center;
+    
+}
+
 #footer {
-    background-color:black;
+    background-color:#B0BEC5;
     color:white;
     clear:both;
     text-align:center;
@@ -35,12 +48,8 @@
 }
 #boxes {
     padding: var(--top-padding);
-    border-style: solid;
-    border-color: transparent;
     float:left;   
-}
-#boxes {
-    padding: var(--top-padding);
-    float:center;   
+    display: flex;
+    justify-content: center;
 }
 </style>
