@@ -54,8 +54,11 @@ title: Heirloom seeds Chennai
 	        </div>
 	  	{% endif %}    
     {% endfor %}
-</div>
+
 {% include footer.html %}
+
+</div>
+
 
 
 </body>
