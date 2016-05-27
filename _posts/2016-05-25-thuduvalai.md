@@ -2,8 +2,8 @@
 layout: post
 category: Herbs - மூலிகை
 name: Thuthuvalai - தூதுவளை
-published: false
-seed-image: -
+published: true
+seed-image: DSC_4222.png
 source: Paramez Zurich
 color: light brown
 shape: spear
